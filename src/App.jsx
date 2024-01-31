@@ -4,7 +4,7 @@ import { Footer } from "./componets/footer";
 
 export function App() {
     return (
-        <div>
+        <div id="root">
             <Outlet/> 
             <Footer />
       </div>    

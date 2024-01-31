@@ -5,11 +5,12 @@ import { App } from './App'
 import { Error } from './pages/error'
 import { Register } from './pages/register'
 import { Home } from './pages/home'
-import './index.css'
+import { Login } from './pages/login'
 
 
-const router = createBrowserRouter ([{
-  
+const router = createBrowserRouter ([
+
+  {
   path:"/",
   element:<App />,
   errorElement:<Error />,
@@ -22,9 +23,14 @@ const router = createBrowserRouter ([{
       path:"/register",
       element:<Register />
     },
+    {
+    path:"/login",
+      element:<Login />
+    }
   ]
+}
 
-}])
+])
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

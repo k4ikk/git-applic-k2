@@ -1,9 +1,10 @@
 import React from "react"
+import '../register/style.css'
 
 export function Register() {
     return (
         <>
-        <div><h1>Register</h1></div>
+        <div className="register"><h1>Register</h1></div>
         </>
     )
 }

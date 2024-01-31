@@ -1,4 +1,5 @@
 import React from "react"
+import '../register/style.css'
 
 export function Login() {
     return (

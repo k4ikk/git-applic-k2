@@ -27,11 +27,12 @@ footer {
     width: 100%;
     color: #fff;
     background-color: #3a3a3a;
+    padding: 1rem;
 }
 #footer_content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 3.5rem;
+    padding: 1rem;
 }
 #footer-contacts h1 {
     margin-bottom: 0.75rem;
