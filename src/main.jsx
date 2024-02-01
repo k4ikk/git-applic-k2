@@ -6,6 +6,7 @@ import { Error } from './pages/error'
 import { Register } from './pages/register'
 import { Home } from './pages/home'
 import { Login } from './pages/login'
+import { Dev } from './pages/dev'
 
 
 const router = createBrowserRouter ([
@@ -26,7 +27,11 @@ const router = createBrowserRouter ([
     {
     path:"/login",
       element:<Login />
-    }
+    },
+    {
+    path:"/dev",
+    element:<Dev />
+  }
   ]
 }
 

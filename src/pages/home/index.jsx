@@ -58,7 +58,8 @@ export function Home() {
         </div>
     </header>
     <main>
-        
+
+
     </main>
         </body>
     )

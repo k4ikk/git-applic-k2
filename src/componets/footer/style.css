@@ -62,6 +62,32 @@ footer {
     color: #fff;
     text-decoration: none;
 }
+.footer-list .footer-links:hover{
+    opacity: 0.5;
+}
+
+#links-externos {
+
+    display: flex;
+    gap: 0.75rem;
+    list-style: none;  
+    padding-top: 10px;
+    
+}
+
+#links-externos .externo-links {
+
+    color: #b1b0b0;
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+
+#links-externos .externo-links:hover{
+
+    opacity: 0.5;
+
+}
 @media only screen and (max-width: 950px) {
     #footer_content{
         grid-template-columns: repeat(2, 1fr);

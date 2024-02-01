@@ -17,29 +17,34 @@ export function Footer() {
             <ul class="footer-list">
                 <li><h3>Contato</h3></li>
                 <li>
-                    <a href="#" class="footer-links">Suporte</a>
+                    <a href="/dev" class="footer-links">Suporte</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-links">Empresarial</a>
+                    <a href="#" class="footer-links"></a>
                 </li>
                 <li>
-                    <a href="#" class="footer-links">Vagas</a>
+                    <a href="#" class="footer-links"></a>
                 </li>
             </ul>
             <ul class="footer-list">
                 <li><h3>Produtos</h3></li>
                 <li>
-                    <a href="#" class="footer-links">App</a>
+                    <a href="/dev" class="footer-links">App</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-links">Desktop</a>
+                    <a href="/dev" class="footer-links">Desktop</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-links">Cloud</a>
+                    <a href="/dev" class="footer-links">Cloud</a>
                 </li>
                 </ul>
                 <div id="footer_copyright">
-                  © Applic.co, Inc. 2024 All rights reserved. 
+                  © 2024 Applic.co, Inc. 
+                  <ul id="links-externos">
+                  <li><a href="/dev" class="externo-links">Termos</a></li>
+                  <li><a href="/dev" class="externo-links">Política</a></li>
+                  <li><a href="/dev" class="externo-links">Cookies</a></li>
+                </ul>
                 </div></div>
         </footer>
         </>

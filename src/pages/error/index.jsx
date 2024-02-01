@@ -17,7 +17,6 @@ export function Error() {
             <p>Essa pagina não existe nos nossos servidores.</p>
             <p><Link to="/">Voltar para a rota</Link></p>
             </div>
-        
         </div>
         <Footer />
         </body>
