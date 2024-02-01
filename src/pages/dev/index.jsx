@@ -18,7 +18,6 @@ export function Dev() {
             <p><Link to="/">Sair do canteiro</Link></p>
             </div>
         </div>
-        <Footer />
         </body>
         </>
     )
