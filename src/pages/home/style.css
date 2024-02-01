@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
-:root {
-    --color-light-50: rgba(236, 233, 236, 0.667);
-
-    --color-night-50: #474646;
-    --color-night-100: #313131;
-    --color-night-150: #000;
-
-    --color-blue-50: #7f7ff7;
-    --color-blue-80: rgb(82, 82, 253);
-    --color-blue-100: rgb(23, 23, 250);
-
-    --color-gradient-: linear-gradient(90deg, var(--color-blue-50), var(--color-blue-80), var(--color-blue-100));
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +9,10 @@
 
 }
 header {
-    background-color: var(--color-night-100);
+    background-color: #3a3a3a;
+}
+#footer-home{
+    background-color: #3a3a3a;
 }
 .nav-bar {
     display: flex;
@@ -64,14 +53,7 @@ header {
 .mobile-menu {
     display: none;
 }
-main {
-    height: 55vh;
-}
-footer {
-    width: 100%;
-    color: #fff;
-    background-color: var(--color-night-100);
-}
+
 #footer_content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -105,6 +87,11 @@ footer {
     color: #fff;
     text-decoration: none;
 }
+main{
+    background-image: linear-gradient(to bottom, #ADD8E6, #00008B);
+    height: 100vh;
+}
+
 @media only screen and (max-width: 950px) {
     #menu-icon {
         display: block;

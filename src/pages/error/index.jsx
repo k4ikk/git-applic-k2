@@ -7,19 +7,20 @@ import { Link } from "react-router-dom"
 export function Error() {
     return (
         <>
-        <body>
-
+        <body od="body-error">
         <div id="erro-aviso">
             <div>
-        <img src={Img} alt="not found" title="ERROR NOT FOUND"/>
+        <img id="imgError" src={Img} alt="not found" title="ERROR NOT FOUND"/>
             </div>
-            <div><h2>ERROR 404: PAGE NOT FOUND</h2> 
+            <div><h2 id="h2-error">ERROR 404: PAGE NOT FOUND</h2> 
             <p>Essa pagina não existe nos nossos servidores.</p>
-            <p><Link to="/">Voltar para a rota</Link></p>
+            <p><Link to="/" id="link-error">Voltar para a rota</Link></p>
             </div>
         </div>
-        <Footer />
         </body>
+        <div id="footer-error">
+        <Footer />
+        </div>
         </>
     )
 }

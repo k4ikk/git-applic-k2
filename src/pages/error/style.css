@@ -1,7 +1,4 @@
-body {
-    height: 100%;
-    width: 100%;
-}
+
 #erro-aviso {
     height: 100%;
     width: 100%;
@@ -10,15 +7,27 @@ body {
     position: relative;
     padding: 10%;
 }
-img {
+#imgError {
     height: 24rem;
     width: 25rem;
 }
-body {
-    height: 100%;
-    width: 100%;
+#link-error {
+    color: rgba(29, 69, 248, 0.89);
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-align: left;
+    transition: all 0.375s;
 }
-
+#link-error:hover {
+    color:blue;
+}
+#h2-error {
+    color:rgb(2, 43, 119)
+}
+#footer-error {
+    background-color: #3a3a3a;
+    
+}
 
   @media only screen and (max-width: 650px) {
     #erro-aviso {
@@ -32,12 +41,8 @@ body {
         padding-left: 10%;
         flex-direction: column;
     }
-    Img {
+    #ImgError {
         height: 50;
         width: 50;
-
-
     }
-
-  
 }

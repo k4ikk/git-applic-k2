@@ -1,6 +1,7 @@
 import React from "react"
 import '../../pages/home/style.css'
 import { Link } from "react-router-dom"
+import { Footer } from "../../componets/footer";
 
 export function Home() {
 
@@ -58,9 +59,8 @@ export function Home() {
         </div>
     </header>
     <main>
-
-
     </main>
+    <div id="footer-home"><Footer /></div>
         </body>
     )
 }
