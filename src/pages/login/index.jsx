@@ -12,7 +12,7 @@ export function Login() {
                 <h1>Login</h1>
                 <p>Enter your datails</p>
                 <div className="login-entradas">
-                    <input type="email" placeholder="exemple@applic.co" />
+                    <input type="email" placeholder="example@applic.co" />
                     <input type="password" placeholder="Password"/>
                     <a href="">Reset your password</a>
                     <button>Login</button>

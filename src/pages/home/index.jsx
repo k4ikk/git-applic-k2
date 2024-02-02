@@ -1,7 +1,10 @@
 import React from "react"
 import '../../pages/home/style.css'
 import { Link } from "react-router-dom"
-import { Footer } from "../../componets/footer";
+import { Footer } from "../../componets/footer"
+
+
+
 
 export function Home() {
 

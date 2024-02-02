@@ -6,7 +6,7 @@ export function Footer() {
         <div id="footer_content">
             <div id="footer_contacts">
                 <h1>Applic.co</h1>
-                <p>Same Mistake of James Blund</p>
+                <p>Same Mistake of James Blunt</p>
                 <div id="footer_social_icons">
                 <a href="#" class="footer-links"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#" class="footer-links"><i class="fa-brands fa-whatsapp"></i></a>
